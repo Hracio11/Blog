@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+body{
+	background: #e1e1e1;
+}
+header{
+	background: #fa5236;
+}
+ul{
+	text-align: center;
+	margin-top: 30px;
+}
+img{
+    background-size: 30px 30px 30px 30px;
+}
+li{
+	color: #e1e1e1;
+	margin-right: 10px;
+	display: inline;
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+h3{
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+footer{
+	background: #fa5236;
+}
+img.Choque{
+	width: 600px;
+}
+h3.Autopista{
+	text-align: center;
+}
+h3.Asesino{
+	text-align: center;
+}
+img.Arrestado{
+	width: 600px;
+}
+img.Accidente{
+	width: 600px;
+}
+h3.Avion{
+	text-align: center;
+}
+i{
+	color: #e1e1e1;
+}
+p{
+	text-align: center;
+}
+img.New{
+	display: block;
+ 	margin: 0px auto;
+}
