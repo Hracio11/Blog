@@ -33,65 +33,34 @@
 		<div class="row">
 			
 			<?php $articulos = new WP_Query([
-							'showposts' => 3,
+							'showposts' => 4,
 								]);
 
 			while ($articulos->have_posts()) {
-					$articulos->the_post();
+					$articulos->the_post();?>
 
-					the_title();
-					echo "<hr>";
-			}
-			?>
-			<div class="col-md-6">
-				<img class = "Choque" src="https://impetu.pe/wp-content/uploads/2021/08/nuevo-impetu-301.jpg">
+
+
+
+
+
+			<div class="col-md-4 mb-2 mt-4">
+				<?php the_post_thumbnail("medium"); ?>
 			</div>
-			<div class="col-md-6">
-				<h3 class="Autopista">Choque en autopista</h3>
-					<p>
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
+			<div class="col-md-8">
+				<h3 class="Autopista"><?php the_title(); ?> </h3>
+					
+					<?php the_excerpt();?>
 			</div>
+
+
+
+
+
+	
+			<?php } ?>
 		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<h3 class="Asesino">Arrestado por asesinato</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-			<div class="col-md-6">
-				<img class="Arrestado" src="https://assetsnffrgf-a.akamaihd.net/assets/m/1013159/univ/art/1013159_univ_lsr_xl.jpg">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-6">
-				<img class="Accidente"src="https://laverdadnoticias.com/__export/1526671033448/sites/laverdad/img/2018/05/18/los-5-accidentes-de-avion-mas-tragicos-2_1.jpg_759710130.jpg">
-			</div>
-			<div class="col-md-6">
-				<h3 class="Avion">Accidente de avión</h3>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-				</p>
-			</div>
-			
-		</div>
-		</section>
+	</section>
 		<footer>
 			<div class="container">
 				<div class="row">
