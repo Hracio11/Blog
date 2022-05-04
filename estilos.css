@@ -4,7 +4,12 @@ body{
 }
 header{
 	background: #fa5236;
+	margin-bottom: 20px;
 }
+a {
+	text-decoration: none;
+}
+
 ul{
 	text-align: center;
 	margin-top: 30px;
@@ -26,31 +31,20 @@ h3{
 footer{
 	background: #fa5236;
 }
-img.Choque{
-	width: 600px;
+.post p{
+	text-align: justify;
+
 }
-h3.Autopista{
-	text-align: center;
+.post{
+	border: 1px solid black;
+	padding: 10px;
+	margin-bottom: 20px;
 }
-h3.Asesino{
-	text-align: center;
-}
-img.Arrestado{
-	width: 600px;
-}
-img.Accidente{
-	width: 600px;
-}
-h3.Avion{
-	text-align: center;
-}
-i{
+
+a.boton{
 	color: #e1e1e1;
-}
-p{
-	text-align: center;
-}
-img.New{
-	display: block;
- 	margin: 0px auto;
+	background: #fa5236;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 5px 10px;
 }

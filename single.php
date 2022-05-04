@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Noticias</title>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
 	<div>
@@ -47,13 +48,15 @@
 			</center>
 		</div><hr>
 		<footer>
-			<center>
-				<ul>
-					<li><img src="http://assets.stickpng.com/images/584ac2d03ac3a570f94a666d.png" width="50"></li>
-					<li><img src="https://cdn.icon-icons.com/icons2/195/PNG/256/YouTube_23392.png" width="50"></li>
-					<li><img src="https://w7.pngwing.com/pngs/298/603/png-transparent-instagram-application-icon-logo-computer-icons-social-media-insta-purple-text-rectangle-thumbnail.png" width="100"></li>
-				</ul>
-			</center>
+			<div class="container">
+				<div class="row">
+						<ul>
+							<li><i class="fa fa-facebook-official" aria-hidden="true"></i></li>
+							<li><i class="fa fa-youtube-play" aria-hidden="true"></i></li>
+							<li><i class="fa fa-instagram" aria-hidden="true"></i></li>
+						</ul>
+				</div>	
+			</div>
 		</footer>
 	</div>
 </body>
