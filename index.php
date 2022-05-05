@@ -3,7 +3,7 @@
 		<div class="row">
 			
 			<?php $articulos = new WP_Query([
-							'showposts' => 3,
+							'showposts' => 4,
 								]);
 
 			while ($articulos->have_posts()) {

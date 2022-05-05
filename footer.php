@@ -1,4 +1,4 @@
-footer.php	<footer>
+<footer>
 			<div class="container">
 				<div class="row">
 						<ul>
@@ -9,6 +9,9 @@ footer.php	<footer>
 				</div>	
 			</div>
 		</footer>
+
+		<?php wp_footer(); ?>
+
 	</div>
 </body>
 </html>
