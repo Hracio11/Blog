@@ -4,6 +4,7 @@
 			
 			<?php $articulos = new WP_Query([
 							'showposts' => 4,
+							'post_type' => 'empleos'
 								]);
 
 			while ($articulos->have_posts()) {
