@@ -7,5 +7,12 @@ register_post_type("empleos", [
 	"label" => "Empleos",
 	"public" => true
 ]);
+
+register_nav_menus([
+
+	'principal' => 'Zona Principal'
+]);
+
+
 }
 ?>
